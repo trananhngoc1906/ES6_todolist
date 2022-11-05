@@ -3,8 +3,8 @@ export class todoList {
 
   addTodo = (input) => {
     let getId = () => {
-      //lấy số id
-      let id = Math.floor(Math.random() * 9999);
+      //lấy số id dau tien
+      let id = 1;
 
       //kiểm tra số id trong arr có trùng hay không, nếu trùng thì xoay tiếp
       while (this.arrList.find((item) => item.id === id)) {
